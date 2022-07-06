@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+.body{
+    font-size: 14px;
+    background: #f2f2f2;
+}
+
+.navbar{
+    background: rgba(2, 72, 21, 0.744);
+    height: 85px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+  
+    
+}
+
+.navbar P{
+    font-size: 40PX;
+    text-align: left;
+    color: rgb(253, 249, 249);
+    padding-left:  150px;
+    padding-top: -1%;
+    
+    
+    
+}
+
+.logo{
+ 
+    width: 280px;
+    float: left;
+    padding-left: 8%;
+    padding-top: 3%;
+    margin-left: -60px;
+       margin-top: -50px;
+       
+}   
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    
+    
+    
+    
+
+}
+.navbar ul li::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    background: #190096;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0 5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.heater{
+    position: fixed;
+    width: 40px;
+    height: 500%;
+    background: #696771b6 ;
+    font-size: 30px;
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+.container{
+    background: white;
+    width: 600px;
+    padding-left: 5%;
+    padding-top: -50%;
+    margin: 150px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,05);
+}
+
+.container h2{
+  font-size: 30px;
+  line-height: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  text-align: center;
+  
+}
+.input-name{
+    width: 250%;
+    position: relative;
+    margin: 2px auto;
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 15%;
+    padding: 8px 0 8px 40px;
+}
+.input-name span{
+ margin-left: 35px;
+}
+.text-name{
+    width: 15%;
+    padding: 8px 0 8px 40px;
+     
+
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right:1px solid #cccccc ;
+}
+
+.text-name, .name{
+border: 1px solid #cccccc;
+outline: none;
+-webkit-transition: all 0.30s ease-in-out;
+-moz-transition: all 0.30s ease-in-out;
+-ms-transition: all 0.30s ease-in-out;
+transition: all 0.30s ease-in-out;
+}
+.text-name:hover, .name:hover{
+    background-color: #e1d8d8;
+}
+.text-name:focus, .name:focus{
+  border: 1px solid blue;
+}
+.radio-button{
+    margin-right: 4px;
+}
+
+ .city{
+    display: inline-block;
+    width: 15%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #e1d8d8;
+    border: 1px solid blue;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     transition: all 0.2s ease;
+
+ } 
+ .city::-ms-expand{
+    display: none;
+
+ }  
+ .city:hover, .city:focus{
+    color: blue;
+    background: #fafafa;
+    border-color: black;
+    outline: none;
+ }
+ .arrow{
+    position: absolute;
+    top: calc(10% - 4px);
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    background-color: blue transparent transparent transparent; 
+
+ }
+ .check{
+    margin-right: 15px;
+    position: relative;
+ }
+ .check::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: -2px;
+    border: 2px solid #cccccc;
+    padding: 2.5px;
+    background-color: transparent;
+    background-clip: content-box;
+    transition: all0.2s ease;
+ }
+.check::after{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    content: "";
+    height: 20px;
+    left: 2px;
+    position: absolute;
+    top: 7px;
+    transform: scaleX(-1) rotate(135deg);
+    transform-origin: left top;
+    width: 7px;
+    display: none;
+
+
+
+}
+.check-button{
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+
+
+}
+.check-button:hover + .check::before{
+    border-color: #000;
+
+}
+.check-button:checked + .check::before{
+    border-color: green;
+}
+
+.check-button:checked + .check::after{
+   -moz-animation: check 0.8s ease 0s running;
+   -webkit-animation: check 0.8s ease 0s running;
+   animation: check 0.8s ease 0s running;
+   display: block;
+   width: 7px;
+   height: 20px;
+   border-color: black;
+}
+.button{
+    background-color: rgb(0, 255, 255);
+    color:#000;
+    height: 35px;
+    line-height: 35px;
+    width: 15%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+
+
+    
+
+}
+.button:hover{
+    background:  blanchedalmond;;
+
+}
+
+
+
+
+
+
+
+
+
+
