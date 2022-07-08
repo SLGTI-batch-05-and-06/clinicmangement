@@ -1,0 +1,134 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(thanu1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    overflow: hidden;
+    color: rgb(14, 14, 14);
+}
+
+
+.logo{
+ 
+ width: 280px;
+ float: left;
+ padding-left: 6%;
+ padding-top: 7%;
+ margin-left: 5px;
+    margin-top: -100px;
+    
+ 
+
+}
+.body P{
+    font-size: 5PX;
+    text-align: center;
+    color: rgb(253, 249, 249);
+    
+    
+}
+
+    
+
+
+
+.container{
+    width: 500px;
+    margin:2% auto;
+    border-radius: 40px;
+    background-color: rgba(14, 1, 1, 0.611);
+    box-shadow: 0 0 17px rgb(236, 231, 231);
+    
+}
+
+
+.header{
+    text-align: center;
+    padding-top: 80px;
+    height: 5%;
+    
+    
+}
+
+.header h1{
+    color: rgb(244, 249, 247);
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 0 0 20px;
+    
+    
+}
+
+.main{
+    text-align: center;
+
+}
+.main p{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(251, 252, 247);
+    margin: 6px;
+    padding: 4px;
+    
+}
+
+
+.main input,button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    border-bottom: 3px solid rgba(221, 221, 221, 0.244);
+    font-size: 15px;
+    color: rgb(247, 243, 243);
+    margin-bottom: 30px;
+    opacity: 3;
+    background: transparent;
+
+}
+
+.main button{
+    padding-left: 0;
+    background-color: rgb(0, 255, 255);
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(19, 1, 1);
+    border: none;
+    border-radius: 20px;
+
+}
+
+.main button:hover{
+    box-shadow: 2px 2px 5px rgb(94, 158, 226);
+    background-color: blanchedalmond;
+}
+
+.main input:hover{
+    box-shadow: 2px 2px 5px rgb(126, 115, 162);
+    background-color: rgba(243, 238, 234, 0.227);
+    
+}
+.main span{
+    position: relative;
+    color: rgb(247, 243, 243);
+    font-size: 20px;
+    
+}
+.main span a{
+    color: rgb(164, 204, 153);
+}
+.main span i{
+    width: 2px;
+    height: 5%;
+}
+.main i{
+    position: absolute;
+    left: 15px;
+    color: rgb(253, 247, 247);
+    font-size: 5px;
+    top:20px;
+    
+}
+
