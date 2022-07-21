@@ -10,8 +10,7 @@ include_once('script.php');
   <title>CLINIC MANAGEMENT</title>
   
   <link rel="stylesheet" href="login.css">
-  <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
 
 </head>
 <body> <br>
@@ -23,11 +22,11 @@ include_once('script.php');
 <div class="main">
      <form>
         <span>
-          <i class="fa fa-userlook"></i>
+          <i ></i>
           <input type="text" placeholder="username" name="">
         </span><br>
         <span>
-          <i class="fa fa-unlock-alt look"></i>
+          <i ></i>
           <input type="password" placeholder="password" name="">
 
        </span> 

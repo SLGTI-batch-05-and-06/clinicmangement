@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+     border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background: #76808a;
+}
+.logo{
+ 
+    width: 280px;
+    float: left;
+    padding-left: 7%;
+    padding-top: 3%;
+    margin-left: -40px;
+       margin-top: -85px;
+       
+   }
+
+.nav p{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(253, 249, 249);
+    margin: 5px;
+    padding: 2px;
+    margin-top: 30px ;
+    margin-left: -35px ;
+}
+
+.heater{
+position: fixed;
+width: 15px;
+height: 500%;
+background: #696771b6 ;
+}
+.nav ul{
+    float: right;
+    margin-right: 40px;
+
+}
+.nav li{
+ display: inline-block;
+ margin: 0 10px;
+ line-height: 100px;
+
+}
+.nav a{
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: 2s;
+}
+.con{
+    height: 70px;
+    width: 100%;
+    background: #106a58; 
+    padding-top: -3px;
+    margin-top: -7px;
+    
+}
+.con ul{
+    float: right;
+    margin-right: 30px;
+    
+
+}
+.con li{
+ display: inline-block;
+ margin: 0 10px;
+ line-height: 100px;
+ padding: 7px 10px;
+ color: white;
+
+ 
+
+}
+
+.card{
+    
+    margin-top: 5px;
+    margin-left: 2%;
+    width: 750px;
+    
+   
+
+}
+.card-text{
+    
+    padding-top: 8%;
+    
+}
+.main_card{
+    display: grid;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+.card1{
+    background: #d1ecf1;
+    color: #35a4ba;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    
+}
+.card2{
+    background: #d1ecf1;
+    color: rgb(7, 35, 41);
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.card3{
+    background: #d1ecf1;
+    color: #35a4ba;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.card4{
+    background: #d1ecf1;
+    color: #35a4ba;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+}
