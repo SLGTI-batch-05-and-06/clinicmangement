@@ -25,10 +25,8 @@
             <li> <a href="ser.php" > SERVICES </a> </li>
             <li> <a href="pag.php" > PACKAGES</a> </li>
             <li> <a href="doc.php" > DOCTORS </a> </li>
-            <li> <a href="#" > BOOK APPOINTMENT</a> </li>
-            <li> <a href="home.php" >logout</a> </li>
             <li> <a href="login.php" >login</a> </li>
-           
+            
            
 </ul>
            

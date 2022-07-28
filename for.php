@@ -1,5 +1,5 @@
 <?php
-include_once('script.php');
+include_once('main/script.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,12 +8,12 @@ include_once('script.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forgot</title>
-<link rel="stylesheet" href="for.css">
+<link rel="stylesheet" href="css/for.css">
   <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<img src="thanu2-removebg-preview.png" class="logo" ><p><b>PEOPLE CARE<BR>CLINIC</b></P>
+<img src="img/thanu2-removebg-preview.png" class="logo" ><p><b>PEOPLE CARE<BR>CLINIC</b></P>
 <div class="container"> <br>
    <div class="header">
       <h1>FORGOT  <br>  PASSWORD</h1>

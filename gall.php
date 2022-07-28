@@ -7,27 +7,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-<link rel="stylesheet" href="css/dasb.css">
+    <title>gall</title>
+<link rel="stylesheet" href="css/gall.css">
  <!-- Add icon library -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
 <body>
-    <nav class="nav">
+<nav class="nav">
     <img src="img/thanu2-removebg-preview.png" class="logo" ><p><b>PEOPLE CARE<BR>CLINIC</b></P> <br>
     
     <div class="heater"></div>
-
+       <BR><br> <br><br>
         <ul>
-            <li> <a class="active" href="#" > HOME </a> </li>
-            <li> <a href="gall.php" > Gallery</a> </li>
-            <li> <a href="ser.php" > SERVICES </a> </li>
+            <li> <a href="dasb.php" > HOME </a> </li>
+            <li> <a class="active" href="ser.php" > Gallery </a> </li>
+            <li> <a href="pag.php" > Services</a> </li>
             <li> <a href="pag.php" > PACKAGES</a> </li>
             <li> <a href="doc.php" > DOCTORS </a> </li>
-            <li> <a href="#" > BOOK APPOINTMENT</a> </li>
+            <li> <a href="app.php" > BOOK APPOINTMENT</a> </li>
+            
             <li> <a href="home.php" >logout</a> </li>
-            <li> <a href="login.php" >login</a> </li>
            
            
 </ul>
@@ -46,15 +46,32 @@
     <li>open from 8am to 5pm </li>
 </ul>
 </div>
+    <header>
 
-<section id="photoarray">
-    <div class="div"><img src="img/clinic01.jpg" class="img01"></div>
-    <div class="div1"><h2 class="h2"><a href="app.php">BOOK AND <br> APPOINTMENT</a></h2></div>
-    <div class="div2"><h2 class="h2"><a href="doc.php">FIND A <br> DOCTOR</a></h2></div>
-    <div class="div3"><h2 class="h2"><a href="pag.php">VIEW OUR <br> PACKAGES</a></h2></div>
-    <div class="div4"><h2 class="h2"><a href="ser.php">VIEWOUR <br> SERVICES</a></h2></div>
-</section>
+    <h1 class="h1"> Gallery of Clinic <h1>
+    <p class="p2">PEOPLE CARE CLINIC</P> 
+</header>
+<hr/>
+<main class="main">
+    <div class="box"><img class="img1" src="img/index.1.jpg" > </div>
+    <div class="box"><img class="img2" src="img/index2.png" > </div>
+    <div class="box"><img class="img3" src="img/index.2.jpg" > </div>
+    <div class="box"><img class="img4" src="img/index.4.jpg" > </div>
+    <div class="box"><img class="img5" src="img/index.5.jpg" > </div>
+     <div class="box"><img class="img6" src="img/index.8.jpg" > </div>
+    <div class="box"><img class="img7" src="img/index.9.jpg" > </div>
+    <div class="box"><img class="img8" src="img/index.10.png" > </div>
+    <div class="box"><img class="img9" src="img/index.6.png" > </div>
+    <div class="box"><img class="img10" src="img/index.7.png" > </div>
+    <div class="box"><img class="img11" src="img/tt.png" > </div>
+    <div class="box"><img class="img12" src="img/thanu02.jpg" > </div>
+    <div class="box"><img class="img14" src="img/clinic01.jpg" > </div>
+    <div class="box"><img class="img13" src="img/HbEuOc.jpg" > </div>
+    <div class="box"><img class="img15" src="img/doctor.png" > </div>
+    
+    
 
+</main>
 <footer class="footer">
     <div class="footer-left">
        <img src="img/thanu2-removebg-preview.png" class="logo" ><b><p class="p3">PEOPLE CARE<BR>CLINIC</b></p> <br><br><br>
@@ -81,7 +98,5 @@
 </ul>
 
 </footer>
-
-
 </body>
 </html>

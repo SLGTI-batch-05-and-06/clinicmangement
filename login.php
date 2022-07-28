@@ -1,5 +1,5 @@
 <?php
-include_once('script.php');
+include_once('main/script.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,12 +9,17 @@ include_once('script.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CLINIC MANAGEMENT</title>
   
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="css/login.css">
  
 
 </head>
 <body> <br>
-<img src="thanu2-removebg-preview.png" class="logo" ><p><b>PEOPLE CARE<BR>CLINIC</b></P>
+<img src="img/thanu2-removebg-preview.png" class="logo" ><p><b>PEOPLE CARE<BR>CLINIC</b></P>
+<select classb="form-select mb-3"aria-lable="Default select example">
+  <option selected value="patients">PATIENTS</option>
+  <option value="doctor">DOCTOR</option>
+  <option value="admin">ADMIN</option>
+</select>
  <div class="container"> <br>
    <div class="header">
       <h1>LOGIN</h1>
@@ -33,8 +38,8 @@ include_once('script.php');
             <button  type="submit">LOGIN</button> <br>
             <span>
               <i class="link-text"></i>
-            <a href="#"><b>Forgot Password ?<b></a><br>
-            Don't have an account?<a href="#"><b>Register here</b></a>
+            <a href="for.php"><b>Forgot Password ?<b></a><br>
+            Don't have an account?<a href="reg.php"><b>Register here</b></a>
 </span> <br> <br> 
      </form>
      
